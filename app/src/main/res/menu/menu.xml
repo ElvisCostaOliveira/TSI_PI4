@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none" >
+        <item
+            android:id="@+id/principal"
+            android:icon="@drawable/home"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/jogos"
+            android:icon="@drawable/videogames"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/jogos"/>
+
+        <item
+            android:id="@+id/plataformas"
+            android:icon="@drawable/plataformas"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/plataformas"/>
+
+        <item
+            android:id="@+id/lancamentos"
+            android:icon="@drawable/lancamentos"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/lancamentos" />
+
+        <item
+            android:id="@+id/maisvendidos"
+            android:icon="@drawable/maisvendidos"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/maisVendidos" />
+
+        <item
+            android:id="@+id/carrinho"
+            android:icon="@drawable/carrinho"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/carrinho" />
+
+        <item
+            android:id="@+id/conta"
+            android:icon="@drawable/conta"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/conta" />
+
+        <item
+            android:id="@+id/sobre"
+            android:icon="@drawable/sobre"
+            android:checkable="false"
+            android:visible="true"
+            android:title="@string/sobre" />
+
+        <item
+            android:id="@+id/sair"
+            android:checkable="false"
+            android:icon="@drawable/sair"
+            android:title="@string/sair"
+            android:visible="true" />
+    </group>
+</menu>
